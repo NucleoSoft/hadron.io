@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components
+{
+  .aurora-outer{
+    @apply absolute top-0 left-0 h-screen w-full bg-gradient-to-r from-primary to-sky-blue
+  }
+  .aurora-middle {
+    @apply absolute top-0 left-0 h-screen w-full bg-gradient-to-bl from-sky-500 to-transparent bg-opacity-50
+  }
+  .aurora-inner {
+    @apply absolute top-0 left-0 h-screen w-full bg-gradient-to-br from-indigo-900 to-transparent bg-opacity-50
+  }
+}
+
