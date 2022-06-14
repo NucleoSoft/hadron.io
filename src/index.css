@@ -5,14 +5,41 @@
 
 @layer components
 {
-  .aurora-outer{
-    @apply absolute top-0 left-0 h-screen w-full bg-gradient-to-r from-primary to-sky-blue
+  .section
+  {
+    @apply w-full
   }
-  .aurora-middle {
-    @apply absolute top-0 left-0 h-screen w-full bg-gradient-to-bl from-sky-500 to-transparent bg-opacity-50
+
+  .subsection
+  {
+    @apply h-full w-full p-2
   }
-  .aurora-inner {
-    @apply absolute top-0 left-0 h-screen w-full bg-gradient-to-br from-slate-900 to-transparent bg-opacity-50
+
+  .title
+  {
+    @apply font-zrnic text-4xl text-right mr-32
+  }
+
+  .line
+  {
+    @apply mx-auto w-4/5 my-3
   }
 }
 
+.aurora-outer
+{
+  background: linear-gradient(to right, #6600cc, #33ffff);
+  height: 100%;
+}
+
+.aurora-middle
+{
+  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.842), #6600cc65);
+  height: 100%;
+}
+
+.aurora-inner
+{
+  background: radial-gradient(transparent, rgba(0, 0, 0, 0.658));
+  height: 100%;
+}

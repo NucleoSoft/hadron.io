@@ -3,11 +3,14 @@ import { Switch } from '@headlessui/react'
 
 function NavBar() {
   return (
-    <nav className='fixed h-10 w-full top-0 left-0 p-3 grid grid-flow-col'>
+    <nav className='fixed h-auto w-full top-0 left-0 p-3 grid grid-flow-col
+                    backdrop-brightness-125 backdrop-blur-md drop-shadow-md'>
         <ul className='col-span-4 flex flex-row justify-evenly 
-                        font-novaflat text-lg text-white my-auto'>
+                        font-novaflat text-md text-white my-auto'>
             <li>Documentation</li>
-            <li>Downloads</li>
+            <li>
+                <a href='/downloads'>Downloads</a>
+            </li>
             <li>Contribute</li>
             <li>Release Notes</li>
             <li>More Projects</li>

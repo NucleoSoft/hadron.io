@@ -11,8 +11,6 @@ function App() {
           <Routes>
               <Route path='/' exact element={<Home/>}/>
               <Route path='/download' element={<DownloadPage />} />
-              <Route path='/download' element={<DownloadPage />} />
-              <Route path='/download' element={<DownloadPage/>}/>
           </Routes>
       </BrowserRouter>
       <NavBar/>
