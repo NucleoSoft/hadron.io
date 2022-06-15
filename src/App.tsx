@@ -9,7 +9,7 @@ function App() {
     <div>
       <BrowserRouter>
           <Routes>
-              <Route path='/' exact element={<Home/>}/>
+              <Route path='/' element={<Home/>}/>
               <Route path='/download' element={<DownloadPage />} />
           </Routes>
       </BrowserRouter>
