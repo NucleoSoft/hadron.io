@@ -1,38 +1,27 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Header from '../components/Header'
 
 function Home() {
   return (
     <div className='bg-slate-300 h-auto'>
-      <section className='section h-[120vh]'>
-        <div className='aurora-outer'>
-          <div className='aurora-middle'>
-            <div className="aurora-inner">
-              <h1 className='font-audiowide text-6xl text-white py-64 ml-32
-                            text-shadow-lg shadow-white'>
-                Hadron-IDE
-              </h1>
-            </div>
-          </div>
-        </div>
-        
-      </section>
+      <Header/>
       <section className='section'>
         What's Hadron?
       </section>
      <section>
         <div className='subsection'>
-          <h1 className='title'>Speed</h1>
+          <h1 className='title text-right mr-32'>Speed</h1>
           <hr className='line'/>
           <p className='font-adventpro'></p>
         </div>
         <div className='subsection'>
-          <h1 className='title'>Light</h1>
+          <h1 className='title text-left ml-32'>Light</h1>
           <hr className='line'/>
           <p className='font-adventpro'></p>
         </div>
         <div className='subsection'>
-          <h1 className='title'>Time</h1>
+          <h1 className='title text-right mr-32'>Time</h1>
           <hr className='line'/>
           <p className='font-adventpro'></p>
         </div>

@@ -17,7 +17,7 @@
 
   .title
   {
-    @apply font-zrnic text-4xl text-right mr-32
+    @apply font-zrnic text-4xl
   }
 
   .line
@@ -28,18 +28,18 @@
 
 .aurora-outer
 {
-  background: linear-gradient(to right, #6600cc, #33ffff);
+  background: linear-gradient(to bottom right, #00ff55, #6600cc);
   height: 100%;
 }
 
 .aurora-middle
 {
-  background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.842), #6600cc65);
+  background: linear-gradient(to top right,#6600ccb4, #33ffff60, transparent);
   height: 100%;
 }
 
 .aurora-inner
 {
-  background: radial-gradient(transparent, rgba(0, 0, 0, 0.658));
+  background: radial-gradient( #6600cc62, rgba(0, 0, 0, 0.582));
   height: 100%;
 }
