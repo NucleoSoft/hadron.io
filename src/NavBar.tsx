@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Switch } from '@headlessui/react'
+// import useDarkMode from './hooks/useDarkMode'
 
 function NavBar() {
   return (
@@ -30,11 +31,15 @@ function NavBar() {
 
 
 const Toggle = () => {
+    // const [darkMode, setdarkMode] = useDarkMode()
+    // const handleMode = setdarkMode(!darkMode)
+
     const [enabled, setEnabled] = useState(false)
     return (
         <Switch
             checked={enabled}
             onChange={setEnabled}
+            // onClick={handleMode}
             className={`${enabled ? 'bg-primary' : 'bg-secondary'
                 } relative inline-flex h-6 w-11 items-center 
                 rounded-full my-auto transition-all duration-300`}
