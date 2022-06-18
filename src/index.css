@@ -24,6 +24,13 @@
   {
     @apply mx-auto w-4/5 my-3
   }
+
+  .downLoadbtn
+  {
+    @apply bg-slate-900 p-8 rounded-lg drop-shadow-lg
+    text-white text-lg font-novaflat w-1/5 
+    hover:bg-gradient-to-r from-primary to-secondary
+  }
 }
 
 .aurora-outer

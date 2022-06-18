@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Switch } from '@headlessui/react'
+import { Link } from 'react-router-dom'
 // import useDarkMode from './hooks/useDarkMode'
 
 function NavBar() {
@@ -9,9 +10,7 @@ function NavBar() {
         <ul className='col-span-4 flex flex-row justify-evenly 
                         font-novaflat text-md text-white my-auto'>
             <li>Documentation</li>
-            <li>
-                <a href='/downloads'>Downloads</a>
-            </li>
+            <li>Downloads</li>
             <li>Contribute</li>
             <li>Release Notes</li>
             <li>More Projects</li>
