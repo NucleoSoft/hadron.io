@@ -27,8 +27,8 @@
 
   .downLoadbtn
   {
-    @apply bg-slate-900 p-10 rounded-lg drop-shadow-lg
-    text-white text-lg font-novaflat relative w-full text-left
+    @apply bg-slate-900 p-10 rounded-lg drop-shadow-lg flex flex-row 
+    text-white text-lg font-novaflat relative w-full items-center
     hover:bg-gradient-to-r from-primary to-secondary
     hover:text-shadow-md hover:shadow-white
     transition-all duration-300

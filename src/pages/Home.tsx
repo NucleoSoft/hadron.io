@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import CoreFunc from '../components/CoreFunc'
 import Header from '../components/Header'
 
 function Home() {
@@ -9,32 +10,7 @@ function Home() {
       <section className='section bg-gradient-to-t from-white to-transparent'>
         <h1 className='text-5xl font-zrnic text-center'>What's Hadron?</h1>
       </section>
-     <section>
-        <div className='subsection'>
-          <h1 className='title text-right mr-32'>Speed</h1>
-          <hr className='line'/>
-          <p className='font-adventpro text-right mr-32 text-lg'></p>
-        </div>
-        <div className='subsection'>
-          <h1 className='title text-left ml-32'>Light</h1>
-          <hr className='line'/>
-          <p className='font-adventpro ml-32 text-lg'>From the get go, another one of our core<br/>
-          principles was ensuring that Hadron remains small while simultaneously keeping the underlying <br/>
-          complexities suited for its performance. Hadron employs the use of frameworks tailored<br/>
-          for speedy development, codebase abstraction and tiny binary releases. Worry no more of <br/>
-          intimidating download sizes. You can now do anything and everything inside a speck of <br/>
-          dust!</p>
-        </div>
-        <div className='subsection'>
-          <h1 className='title text-right mr-32'>Time</h1>
-          <hr className='line'/>
-          <p className='font-adventpro text-right mr-32 text-lg'>As any programmer will tell you, time is of the essence,<br/>
-          and with Hadron, we do our best to make sure of this. Be amazed at the architecture<br/> 
-          built to reduce the hassle of technical nitty gritties, and focus more on <br/>
-          YOUR task. From the frontend design, the intelligent and code-aware autocomplete, <br/>
-          quick fixes... pre-production tips and fixes, to the backend technologies... you can now build like a pro.</p>
-        </div>
-     </section>
+      <CoreFunc/>
      <section className='my-5 text-center'>
        <h1 className='text-5xl font-zrnic'>We're a story in progress</h1>
        <p className='font-adventpro text-xl my-6'>Our team, featuring the brains behind this project, is made up of open minded<br/>

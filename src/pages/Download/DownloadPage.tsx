@@ -7,9 +7,15 @@ function DownloadPage() {
       <Header/>
       <h1>If you feel like we didn't pick your OS right, here's a set of options you can choose from below.</h1>
       <div className='ml-24 space-y-8 p-5'>
-        <DownloadOps>Download for MacOS</DownloadOps>
-        <DownloadOps>Download for Windows</DownloadOps>
-        <DownloadOps>Download for Linux</DownloadOps>
+        <DownloadOps>Download for MacOS
+          <img src="../../../assets/macos-svgrepo-com.svg" alt="macos" width='40' className='mx-2' />
+        </DownloadOps>
+        <DownloadOps>Download for Windows
+          <img src="../../../assets/windows-svgrepo-com.svg" alt="macos" width='40' className='mx-2' />
+        </DownloadOps>
+        <DownloadOps>Download for Linux
+          <img src="../../../assets/tux-svgrepo-com.svg" alt="macos" width='46' className='mx-2' />
+        </DownloadOps>
       </div>
       <h1>And if you need a more technical approach, below are different versions of certain releases across different Operating Systems </h1>
 
