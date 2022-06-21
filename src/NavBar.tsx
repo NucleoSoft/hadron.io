@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Switch } from '@headlessui/react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 // import useDarkMode from './hooks/useDarkMode'
 
 function NavBar() {
@@ -43,7 +43,6 @@ const Toggle = () => {
                 } relative inline-flex h-6 w-11 items-center 
                 rounded-full my-auto transition-all duration-300`}
         >
-            <span className="sr-only">Enable notifications</span>
             <span
                 className={`${enabled ? 'translate-x-6 drop-shadow-[0_0_4px_#fff]' : 'translate-x-1'
                     } inline-block h-4 w-4 transform rounded-full 

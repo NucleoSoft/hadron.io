@@ -22,14 +22,16 @@
 
   .line
   {
-    @apply mx-auto w-4/5 my-3
+    @apply mx-auto w-4/5 my-3 border-slate-900
   }
 
   .downLoadbtn
   {
-    @apply bg-slate-900 p-8 rounded-lg drop-shadow-lg
-    text-white text-lg font-novaflat w-1/5 
+    @apply bg-slate-900 p-10 rounded-lg drop-shadow-lg
+    text-white text-lg font-novaflat relative w-full text-left
     hover:bg-gradient-to-r from-primary to-secondary
+    hover:text-shadow-md hover:shadow-white
+    transition-all duration-300
   }
 }
 
