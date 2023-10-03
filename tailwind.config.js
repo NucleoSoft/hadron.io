@@ -26,7 +26,7 @@ module.exports = {
       },
       fontFamily:
       {
-        'adventpro': '"Advent Pro"',
+        'adventpro': 'advent-Regular',
         'zrnic': 'Zrnic',
         'audiowide': 'Audiowide',
         'novaflat': '"Nova Flat"',
